@@ -1,3 +1,5 @@
+// All of these options are in PanelViewModel.cs
+
 // 1. 
 
             if (UmiContext.Current != null)
