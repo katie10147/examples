@@ -1,4 +1,4 @@
-1. 
+// 1. 
 
             if (UmiContext.Current != null)
             {
@@ -9,13 +9,12 @@
                 }
             }
 
-2. 
+// 2. 
 
 
 	public object? StreetInformation1 => UmiContext.Current != null ? UmiContext.Current.ModuleProjectSettings.Get<ExtraEnergyProjectSettings>().StreetLightingByLayer : default(object?);
 
-
-3. 
+// 3. 
 
 	private void RunGetStreetLengthsCommand()
         {
